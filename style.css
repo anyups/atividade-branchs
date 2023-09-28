@@ -23,7 +23,7 @@ body {
     justify-content:center;
     text-align: center;
     width: 30%;
-    height: 90%;
+    height: 100%;
   }
   
   .wrapper {
@@ -57,3 +57,36 @@ body {
     letter-spacing: 2px;
     text-transform: uppercase;
   }
+
+  .button-wrapper{
+    margin-top: 5px;
+  }
+  
+.btn {
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 1rem;  
+    letter-spacing: 2px;  
+    cursor: pointer;
+    text-decoration: none;
+}
+  
+.btn + .btn {
+    margin-left: 10px;
+}
+  
+.outline {
+    background: transparent;
+    color: rgba(255, 206, 59, 0.621);
+    border: 1px solid rgba(255, 206, 59, 0.621);
+    transition: all .3s ease;
+    
+}
+  
+.outline:hover{
+    transform: scale(1.125);
+    color: rgba(255, 255, 255, 0.9);
+    border-color: rgba(255, 255, 255, 0.9);
+    transition: all .3s ease;  
+}
